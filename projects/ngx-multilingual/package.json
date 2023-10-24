@@ -1,0 +1,22 @@
+{
+  "name": "ngx-multilingual",
+  "version": "0.0.1",
+  "description": "This is a translator that does translation.",
+  "author": {"name": "Raju", "email": "", "url": "https://github.com/Jonnykratz"},
+  "repository": {"type": "git", "url": "https://github.com/Jonnykratz/count-down-timer"},
+  "homepage": "https://github.com/Jonnykratz/count-down-timer",
+  "keywords": ["timer", "angular", "angularv16"],
+  "license":"MIT",
+  "scripts": {
+    "start:proxy": "--proxy-config src/proxy.conf.json",
+    "build-library": "ng build ngx-multilingual"
+  },
+  "peerDependencies": {
+    "@angular/common": "^16.2.0",
+    "@angular/core": "^16.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

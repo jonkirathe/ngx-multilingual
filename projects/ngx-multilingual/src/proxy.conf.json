@@ -1,0 +1,11 @@
+{
+  "/api/*": {
+    "target": "https://lingva.lunar.icu/_next/data/lp5cuqVxSfFeVf8tdegpN/auto",
+    "secure": false,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "changeOrigin": false,
+    "logLevel": "debug"
+  }
+}
