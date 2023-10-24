@@ -11,13 +11,13 @@ Simple Ngx-Multilingual library for angular
 ### 1. Install
 
 ```
-npm install ngx-multilingual --save
+npm install ngrj-multilingual --save
 ```
 
 import `NgxMultilingualService`。
 
 ```typescript
-import {NgxMultilingualService} from "ngx-multilingual";
+import {NgxMultilingualService} from "ngrj-multilingual";
 
 @Component({
   selector: 'app-root',
